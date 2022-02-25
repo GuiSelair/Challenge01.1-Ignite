@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack serve",
-    "server": "json-server server.json --port 3333",
+    "server": "json-server -p 3005 -d 1000 --watch server.json",
     "build": "cross-env NODE_ENV=production webpack",
     "test": "jest --watchAll"
   },
